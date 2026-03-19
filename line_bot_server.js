@@ -255,11 +255,11 @@ function calcTrucks(volumeM3, from, to) {
     basePrice = 110000; truckType = '4tトラック';
   }
 
-  const companies = [
-    { company: 'アート引越センター', rating: '⭐4.8', feature: '梱包材無料' },
-    { company: 'サカイ引越センター', rating: '⭐4.7', feature: '家具組立付き' },
-    { company: '日本通運',           rating: '⭐4.6', feature: '保険充実' },
-  ];
+const companies = [
+    { company: 'アップル引越センター', rating: '⭐5.0', feature: '梱包材無料' },
+    { company: 'アップル引越センター', rating: '⭐5.0', feature: '家具組立付き' },
+    { company: 'アップル引越センター', rating: '⭐5.0', feature: '保険充実' },
+];
 
   return companies.map((c, i) => {
     const multiplier = [1.0, 1.08, 1.15][i];
